@@ -19,7 +19,7 @@ Tout fonctionne sans code HTML, uniquement via :
 
 ## 🔧 1. Matériel utilisé
 Placez le matériel comme ci-dessous :
-![Materiel](Assets/hardware-setup.png)
+![Materiel](doc/hardware-setup.png)
 
 **Liste du matériel**   
 - Arduino UNO Q - https://store.arduino.cc/products/uno-q
@@ -35,11 +35,11 @@ Placez le matériel comme ci-dessous :
 
 ### 2.2. Lancer Arduino App Lab
 L’icône Wi-Fi apparaît automatiquement.
-![App](Assets/app-lab-wifi.png)
+![App](doc/app-lab-wifi.png)
 
 ### 2.3. Cliquer sur la UNO Q détectée
 App Lab affiche une boîte pour entrer le mot de passe Wi-Fi de la carte.
-![App](Assets/app-lab-login.png)
+![App](doc/app-lab-login.png)
 
 Une fois validé, vous accédez à l’interface principale.
 
@@ -47,7 +47,7 @@ Une fois validé, vous accédez à l’interface principale.
 
 ## 🆕 3. Créer un nouveau projet App Lab
 Cliquer sur My Apps (barre de gauche)  
-![App](Assets/app-lab-myapps.png)
+![App](doc/app-lab-myapps.png)
 
 Cliquer sur Create New App +  
 Donner un nom, par exemple : unoQ-video-detector  
@@ -59,11 +59,11 @@ L’arborescence du projet contient automatiquement :
 ## 🧱 4. Ajouter le Brick "Video Object Detection"
 Cliquer sur Add (+)   
 
-![App](Assets/app-lab-add-brick.png)
+![App](doc/app-lab-add-brick.png)
 - Choisir Video Object Detection   
 - Cliquer sur Create
 
-![App](Assets/app-lab-brick-added.png)
+![App](doc/app-lab-brick-added.png)
 
 Ce Brick fournit automatiquement :
 - le container Linux EdgeImpulse  
@@ -143,7 +143,7 @@ App.run()
 ```
 📸 Capture console Python :
 
-![App](Assets/python-console-run.png)
+![App](doc/python-console-run.png)
 
 ### ⚙️ 6. Code STM32 (cœur temps réel C++)
 📄 sketch/sketch.ino  
@@ -155,7 +155,7 @@ Ce code :
 - imprime les messages dans la console STM32
 
 📸 Capture code C++ :
-![App](Assets/arduino-console-run.png)
+![App](doc/arduino-console-run.png)
 
 ### 🎬 7. Lancement de l’application  
 
