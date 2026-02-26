@@ -201,5 +201,5 @@ On met un `delay(10);` très léger :
 
 ## Vue sortie console côté STM32 :
 
-![arduino](../../Assets/arduino-console-STM32.png)
+![arduino](../../doc/arduino-console-STM32.png)
 
